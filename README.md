@@ -31,3 +31,6 @@ For example, let’s consider the training size of 1000 samples and the batch si
 ### Epochs
 An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model.<br>
 For example, Consider a dataset that has 200 samples. These samples take 1000 epochs or 1000 turns for the dataset to pass through the model. It has a batch size of 5. This means that the model weights are updated when each of the 40 batches containing five samples passes through. Hence the model will be updated 40 times. 
+
+## API
+In this i have used the FastAPI concepts and while running this you will get the predicted value if you give the potato leaf picture. It is working fine give it a try and if there is any issuse you can open the pull request.
